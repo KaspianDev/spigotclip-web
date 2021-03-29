@@ -1,0 +1,93 @@
+<!-- No, I'm not a Bootstrap dev. -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<title>Hello, world!</title>
+</head>
+<body>
+<header class="p-2 bg-dark text-white">
+	<div class="container">
+		<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between bg-dark">
+			<a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-light text-decoration-none">
+				Spigotclip
+			</a>
+			<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+				<li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+				<li><a href="#download" class="nav-link px-2 link-light">Downloads</a></li>
+				<li><a href="#" class="nav-link px-2 link-light">FAQ</a></li>
+			</ul>
+		</header>
+	</div>
+</header>
+
+<div class="container text-center">
+	<div class="px-4 py-2 my-3 my text-center border-bottom">
+		<h3>This site is WIP. Credits:</h3>
+		<ul>
+			<li><a href="https://spigotmc.org">Spigot</a> - the server software. GPL licensed.
+				<small><a class="link-secondary"
+						  href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/spigot/browse">source</a></small>
+			</li>
+			<li><a href="https://github.com/PaperMC/Paperclip">Paperclip</a> - binary patch system, originally designed
+				for <a href="https://papermc.io">Paper</a>, that removes the need for BuildTools. MIT licensed.
+			</li>
+		</ul>
+		<p>An effort has been made to comply with all licenses and provide where credit where appropriate.
+			<a href="https://github.com/lucyy-mc/">Please contact
+				me if you have any concerns</a>, I'm not trying to upset anyone.</p>
+	</div>
+	<h3><a id="download"></a>Downloads</h3>
+	<div class="pt-3 pb-5 d-flex border-bottom">
+		<div class="card mx-auto" style="width: 26rem;">
+			<div class="card-body">
+				<h5 class="card-title">Latest release</h5>
+				<div>Version <strong>1.16.5</strong></div>
+				<div>Commit
+					<a class="link-secondary"
+					   href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/spigot/commits/79d53c28">
+						79d53c28
+					</a>
+				</div>
+				<div>Built <strong>29 Mar 21 19:06 UTC</strong></div>
+				<div>MD5 <strong>8f58ed027edf388365a7b0a9459f2cfc</strong></div>
+				<button class="btn btn-primary my-3">Download</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container text-center px-4 py-4 my-3 border-bottom">
+	<h3>FAQ</h3>
+	<div class="container d-flex flex-row">
+		<div class="card mx-auto" style="width: 20rem;">
+			<div class="card-body px-4">
+				<h5 class="card-title">Isn't this illegal?</h5>
+				<div class="small">No. SpigotMC don't redistribute jarfiles due to legal issues surrounding
+					redistributing Mojang's code, which Spigot depends on. PaperMC use a system called Paperclip that
+					avoids this issue. These jarfiles have been "paperclipped" so they are safe to redistribute.
+				</div>
+			</div>
+		</div>
+		<div class="card mx-auto" style="width: 20rem;">
+			<div class="card-body px-4">
+				<h5 class="card-title">Can I trust these builds?</h5>
+				<div class="small">That's for you to decide. The build script I use to put these together is
+					<a href="https://github.com/lucyy-mc/spigotclip" class="link-secondary">open-source</a>, and I have
+					<a href="https://www.spigotmc.org/members/__lucyy.969294/" class="link-secondary">a good reputation
+					</a>on the SpigotMC forums. Naturally I encourage good security practices, don't just take my word
+					for it.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="container my-3 text-center">
+	<small>Operated by <a class="link-secondary" href="https://lucyy.me">Lucy Poulton</a>.
+		Not affiliated with Mojang, SpigotMC, Paper or any third parties!</small>
+</footer>
+</body>
+</html>
