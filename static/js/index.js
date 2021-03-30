@@ -3,7 +3,7 @@ function getLatest() {
         .then(data => data.json())
         .then(json => {
             if (json.length === 0) {
-                document.getElementById("latest").innerHTML = "<h5>No releases available at this time</h5>";
+                document.getElementById("latest").innerHTML = "<h5 class=\"card-title\">No releases available at this time</h5>";
                 return;
             }
             let output = json.sort((a, b) => b - a)[0];
