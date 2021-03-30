@@ -1,0 +1,11 @@
+{
+  "name": "spigotclip",
+  "description": "Builds of SpigotMC using PaperMC's Paperclip system to distribute GPL-safe jars",
+  "repository": "git+https://github.com/lucyy-mc/spigotclip.git",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
